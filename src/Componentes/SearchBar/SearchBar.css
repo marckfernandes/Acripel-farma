@@ -1,0 +1,24 @@
+@import url(../DesignSystem.css);
+
+.search-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 31px;
+    height: 48px;
+    border-radius: 12px;
+    box-shadow: var(--elevacao-02dp);
+    align-items: center;
+}
+
+.search-button{
+    display: flex;
+    max-width: 59px;
+    max-height: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon {
+    margin: 11px 13.5px 11px 13.5px;
+    fill: var(--branco);
+}

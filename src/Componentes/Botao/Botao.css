@@ -1,0 +1,15 @@
+@import url(../DesignSystem.css);
+
+.botao {
+    background: var(--cor-primaria-botao);
+    border: none;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.botao:hover {
+    background: linear-gradient(180deg, var(--cor-primaria-60) 0%, var(--cor-primaria-80) 100%);
+
+    svg {
+        fill: var(--cor-primaria-05);
+    }
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    /*------CORES------*/
+
+    /*------COR PRIMARIA------*/
+    --cor-primaria: #0072D8;
+    --cor-primaria-90: #1A81DC;
+    --cor-primaria-80: #338EE0;
+    --cor-primaria-70: #4D9DE4;
+    --cor-primaria-60: #66AAE8;
+    --cor-primaria-50: #80B9EC;
+    --cor-primaria-40: #99C7EF;
+    --cor-primaria-30: #B3D5F4;
+    --cor-primaria-20: #CCE3F7;
+    --cor-primaria-10: #E6F1FC;
+    --cor-primaria-05: #F2F8FD;
+    --cor-primaria-botao: linear-gradient(180deg, var(--cor-primaria-80) 0%, var(--cor-primaria) 100%);
+    /*------COR SECUNDARIA------*/
+    --cor-secundaria: #011865;
+    --cor-secundaria-70: #4E5E94;
+    --cor-secundaria-50: #808CB2;
+    --cor-secundaria-30: #B3BAD1;
+    --cor-secundaria-10: #E6E8F0;
+    --cor-secundaria-05: #F2F3F7;
+    /*------COR TERCIARIA------*/
+    --cor-terciaria: #FCC90A;
+    --cor-terciaria-70: #FDDA54;
+    --cor-terciaria-50: #FEE485;
+    --cor-terciaria-30: #FFEFB6;
+    --cor-terciaria-10: #FFFAE7;
+    --cor-terciaria-05: #FFFCF2;
+    /*------COR QUATERNARIA------*/
+    --cor-quaternaria: #D10163;
+    /*------PRETO E BRANCO------*/
+    --preto: #000000;
+    --preto-80: #333333;
+    --preto-50: #808080;
+    --preto-20: #CCCCCC;
+    --preto-10: #E6E6E6;
+    --preto-05: #F2F2F2;
+    --branco: #FFFFFF;
+
+
+    
+    /*------TIPOGRAFIAS------*/
+
+    /*------TÍTULOS------*/
+    --H1: normal normal 300 4.875em/150% Poppins, sans-serif;
+    --H2: normal normal 500 3em/150% Poppins, sans-serif;
+    --H3: normal normal 600 1.875em/150% Poppins, sans-serif;
+    --H4: normal normal 600 1.625em/150% Poppins, sans-serif;
+    --H5: normal normal 600 1.25em/150% Poppins, sans-serif;
+    /*------MANCHA DE TEXTO------*/
+    --texto-grande: normal normal 400 1.625em/150% "Open Sans", sans-serif;
+    --texto-grande-bold: normal normal 700 1.625em/150% "Open Sans", sans-serif;
+    --texto-corrido: normal normal 400 1em/150% "Open Sans", sans-serif;
+    --texto-corrido-bold: normal normal 700 1em/150% "Open Sans", sans-serif;
+    --texto-menor: normal normal 400 0.875em/150% "Open Sans", sans-serif;
+    --texto-menor-bold: normal normal 700 0.875em/150% "Open Sans", sans-serif;
+    --legenda: normal normal 400 0.75em/150% "Open Sans", sans-serif;
+    --legenda-menor: normal normal 400 0.625em/150% "Open Sans", sans-serif;
+
+
+
+    /*------ELEVAÇÕES/SOMBRAS------*/
+
+    --elevacao-01dp: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+    --elevacao-02dp: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+    --elevacao-03dp: 0px 3px 4px rgba(0, 0, 0, 0.14), 0px 3px 3px rgba(0, 0, 0, 0.12), 0px 1px 8px rgba(0, 0, 0, 0.2);
+    --elevacao-08dp: 0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+    --elevacao-12dp: 0px 12px 17px rgba(0, 0, 0, 0.14), 0px 5px 22px rgba(0, 0, 0, 0.12), 0px 7px 8px rgba(0, 0, 0, 0.2);
+}

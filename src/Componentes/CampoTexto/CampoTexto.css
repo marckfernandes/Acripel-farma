@@ -1,0 +1,23 @@
+@import url(../DesignSystem.css);
+
+input {
+    height: 44px;
+    width: 478px;
+    padding-left: 18px;
+    border: none;
+    outline: none;
+    border-radius: 12px 0px 0px 12px;
+    font: var(--texto-corrido);
+    background-color: var(--branco);
+    border: 2px solid var(--preto-20);
+}
+
+input:hover {
+    border: 2px solid var(--cor-primaria);
+    fill: var(--cor-secundaria-50);
+}
+
+input:focus {
+    border: 2px solid var(--cor-terciaria);
+    caret-color: var(--cor-terciaria);
+}

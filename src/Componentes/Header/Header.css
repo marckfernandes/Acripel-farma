@@ -1,0 +1,33 @@
+@import url(../DesignSystem.css);
+
+#container {
+    position: fixed;
+    width: 1440px;
+    height: 192px;
+    background-color: var(--cor-secundaria-05);
+    box-shadow: var(--elevacao-08dp);
+    border-radius: 0px 0px 30px 30px;
+    overflow: hidden;
+}
+
+.conteudo {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo {
+    margin-top: 17px;
+}
+
+.grafismo01 {
+    position: absolute;
+    left: 0%;
+}
+
+
+.grafismo02 {
+    position: absolute;
+    right: 0%;
+}
+
