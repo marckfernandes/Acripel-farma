@@ -1,0 +1,51 @@
+@import url(../DesignSystem.css);
+
+.main-toolbar {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.user-texts {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    color: var(--preto-50);
+}
+
+.user-text1 {
+    font: var(--legenda);
+}
+
+.user-text2 {
+    font: var(--H5);
+}
+
+.order-texts {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    color: var(--preto-50);
+}
+
+.order-text1 {
+    font: var(--H5);
+}
+
+.order-text2 {
+    font: var(--H5);
+}
+
+.bag-texts {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    color: var(--preto-50);
+}
+
+.bag-text1 {
+    font: var(--H5);
+}
+
+.bag-text2 {
+    font: var(--H5);
+}

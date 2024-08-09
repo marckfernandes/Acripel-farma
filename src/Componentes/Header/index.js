@@ -1,7 +1,6 @@
-import IconeSvg from '../Icones/IconeSvg'
 import SearchBar from '../SearchBar'
+import UserToolbar from '../UserToolbar'
 import './Header.css'
-import { icones } from '../Icones/icones'
 
 const Header = () => {
     return (
@@ -9,9 +8,7 @@ const Header = () => {
             <div className='conteudo'>
                 <img src='/Imagens/Logo.png' className='logo' alt='Logo Acripel'/>
                 <SearchBar />
-                <IconeSvg 
-                    paths={icones.eye}
-                />
+                <UserToolbar />
             </div>
             <div className='grafismos'>
                 <svg className='grafismo01'
