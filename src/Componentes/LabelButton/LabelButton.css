@@ -1,0 +1,29 @@
+@import url(../DesignSystem.css);
+
+.label-button {
+    display: flex;
+    flex-flow: row nowrap;
+    font: var(--H5);
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 18px 32px 18px 32px;
+    gap: 12px;
+    color: var(--cor-primaria);
+    border: 2px solid #00000000;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+}
+
+.label-button:hover {
+    border: 2px solid;
+}
+
+.label-button:active {
+    color: var(--cor-secundaria);
+    
+    .icon-button {
+        fill: var(--cor-secundaria);
+    }
+}

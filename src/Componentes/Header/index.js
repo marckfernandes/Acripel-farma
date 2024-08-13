@@ -1,3 +1,6 @@
+import LabelButton from '../LabelButton'
+import SolidButton from '../SolidButton'
+import CtaButton from '../CtaButton'
 import SearchBar from '../SearchBar'
 import UserToolbar from '../UserToolbar'
 import './Header.css'
@@ -6,9 +9,28 @@ const Header = () => {
     return (
         <header id='container'>
             <div className='conteudo'>
-                <img src='/Imagens/Logo.png' className='logo' alt='Logo Acripel'/>
-                <SearchBar />
-                <UserToolbar />
+                <div className='linha1'>
+                    <img src='/Imagens/Logo.png' className='logo' alt='Logo Acripel'/>
+                    <SearchBar />
+                    <UserToolbar />
+                </div>
+                <div className='linha2'>
+                    <LabelButton iconName='cart' iconClassName='icon-button'>
+                        Sessões
+                    </LabelButton>
+                    <LabelButton iconClassName='icon-button'>
+                        Início
+                    </LabelButton>
+                    <LabelButton iconClassName='icon-button'>
+                        Sobre nós
+                    </LabelButton>
+                    <LabelButton iconClassName='icon-button'>
+                        Contato
+                    </LabelButton>
+                    <LabelButton iconClassName='icon-button'>
+                        Downloads
+                    </LabelButton>
+                </div>
             </div>
             <div className='grafismos'>
                 <svg className='grafismo01'

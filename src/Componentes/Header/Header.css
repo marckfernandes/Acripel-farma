@@ -12,12 +12,32 @@
 
 .conteudo {
     display: flex;
+    flex-flow: column nowrap;
     position: absolute;
     z-index: 2;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.linha1 {
+    gap: 64.6px;
+}
+
+.linha2 {
+    margin-top: 15px;
+    gap: 67.5px;
+}
+
+.linha1, .linha2 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin-left: 30px;
 }
 
 .logo {
-    margin-top: 17px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
 }
 
 .grafismo01 {

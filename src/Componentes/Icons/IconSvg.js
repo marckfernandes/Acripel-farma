@@ -1,5 +1,5 @@
 
-const IconeSvg = ({paths, fill="#0072D8", className}) => {
+const IconSvg = ({paths, fill="#0072D8", className}) => {
     return(
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -16,4 +16,4 @@ const IconeSvg = ({paths, fill="#0072D8", className}) => {
     )
 }
 
-export default IconeSvg
+export default IconSvg

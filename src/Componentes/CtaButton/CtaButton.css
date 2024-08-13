@@ -1,0 +1,38 @@
+@import url(../DesignSystem.css);
+
+.cta-button {
+    display: flex;
+    flex-flow: row nowrap;
+    font: var(--H5);
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 18px 32px 18px 32px;
+    gap: 12px;
+    color: var(--branco);
+    border: none;
+    border-radius: 50px;
+    background: var(--cor-primaria-botao);
+    box-shadow: var(--elevacao-02dp);
+    cursor: pointer;
+    
+    .icon-button {
+        fill: var(--branco);
+    }
+}
+
+.cta-button:hover {
+    color: var(--branco);
+    background: linear-gradient(180deg, var(--cor-primaria-60) 0%, var(--cor-primaria-80) 100%);
+    
+    .icon-button {
+        fill: var(--branco);
+    }
+}
+
+.cta-button:active {
+    background: var(--cor-secundaria);
+}
+
+
+

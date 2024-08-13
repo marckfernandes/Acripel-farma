@@ -1,11 +1,11 @@
 import Toolbar from "../Toolbar";
-import { icones } from "../Icones/icones";
+import { icons } from "../Icons/icons";
 import './UserToolbar.css'
 
 const UserToolbar = () => {
     const ToolbarItems = [
         {
-            iconPaths: icones.user,
+            iconPaths: icons.user,
             text1: "Olá faça seu login",
             text2: "Sua conta",
             iconClassName: "user-icon",
@@ -14,7 +14,7 @@ const UserToolbar = () => {
             text2ClassName: "user-text2"
         },
         {
-            iconPaths: icones.order,
+            iconPaths: icons.order,
             text1: "Meus",
             text2: "pedidos",
             iconClassName: "order-icon",
@@ -23,7 +23,7 @@ const UserToolbar = () => {
             text2ClassName: "order-text2"
         },
         {
-            iconPaths: icones.bag,
+            iconPaths: icons.bag,
             text1: "0 / Itens",
             text2: "R$ 0,00",
             iconClassName: "bag-icon",

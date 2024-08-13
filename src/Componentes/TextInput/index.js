@@ -1,6 +1,6 @@
-import './CampoTexto.css'
+import './TextInput.css'
 
-const CampoTexto = () => {
+const TextInput = () => {
     return (
         <div className='campo-texto'>
             <input/>
@@ -8,5 +8,5 @@ const CampoTexto = () => {
     )
 }
 
-export default CampoTexto
+export default TextInput
 

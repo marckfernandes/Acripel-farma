@@ -1,21 +1,21 @@
-import Botao from '../Botao'
-import CampoTexto from '../CampoTexto'
-import IconeSvg from '../Icones/IconeSvg'
-import { icones } from '../Icones/icones'
+import SearchButton from '../SearchButton'
+import TextInput from '../TextInput'
+import IconSvg from '../Icons/IconSvg'
+import { icons } from '../Icons/icons'
 import './SearchBar.css'
 
 const SearchBar = () => {
     return (
         <div className='search-bar'>
-            <CampoTexto />
-            <Botao>
+            <TextInput />
+            <SearchButton>
                 <div className='search-button'>
-                    <IconeSvg
-                        paths={icones.search}
+                    <IconSvg
+                        paths={icons.search}
                         className='search-icon'
                     />
                 </div>
-            </Botao>
+            </SearchButton>
         </div>
     )
 }

@@ -3,7 +3,6 @@
 .search-bar {
     display: flex;
     flex-flow: row nowrap;
-    margin-top: 31px;
     height: 48px;
     border-radius: 12px;
     box-shadow: var(--elevacao-02dp);
