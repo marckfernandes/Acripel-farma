@@ -3,6 +3,7 @@
 .main-toolbar {
     display: flex;
     flex-flow: row nowrap;
+    gap: 24px;
 }
 
 .user-texts {
@@ -27,25 +28,6 @@
     color: var(--preto-50);
 }
 
-.order-text1 {
-    font: var(--H5);
-}
-
-.order-text2 {
-    font: var(--H5);
-}
-
-.bag-texts {
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: start;
-    color: var(--preto-50);
-}
-
-.bag-text1 {
-    font: var(--H5);
-}
-
-.bag-text2 {
+.order-text1, .order-text2 {
     font: var(--H5);
 }

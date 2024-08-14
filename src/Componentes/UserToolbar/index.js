@@ -21,15 +21,6 @@ const UserToolbar = () => {
             textsClassName: "order-texts",
             text1ClassName: "order-text1",
             text2ClassName: "order-text2"
-        },
-        {
-            iconPaths: icons.bag,
-            text1: "0 / Itens",
-            text2: "R$ 0,00",
-            iconClassName: "bag-icon",
-            textsClassName: "bag-texts",
-            text1ClassName: "bag-text1",
-            text2ClassName: "bag-text2"
         }
     ];
 

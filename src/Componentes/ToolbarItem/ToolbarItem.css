@@ -3,17 +3,6 @@
     flex-flow: row nowrap;
     align-items: center;
     justify-content: center;
-    margin: 8px 16px 8px 16px;
-}
-
-.user-icon {
-    margin-right: 16px;
-}
-
-.order-icon {
-    margin-right: 16px;
-}
-
-.bag-icon {
-    margin-right: 16px;
+    padding: 8px;
+    gap: 16px;
 }

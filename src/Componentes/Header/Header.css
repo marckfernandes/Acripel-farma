@@ -20,7 +20,7 @@
 }
 
 .linha1 {
-    gap: 64.6px;
+    gap: 45px;
 }
 
 .linha2 {
@@ -38,6 +38,10 @@
 .logo {
     margin: 0px 5px 0px 5px;
     cursor: pointer;
+}
+
+.grafismos {
+    opacity: 20%;
 }
 
 .grafismo01 {
